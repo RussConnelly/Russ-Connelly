@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Russell Connelly's research on UK Seahorses and educational background in Marine Biology.">
+    <title>Research & Education | Russell Connelly</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
 
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        nav {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #0073e6;
+        }
+
+        section {
+            text-align: left;
+            margin: 50px 0;
+        }
+
+        section h2 {
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 50px;
+            background-color: #0073e6;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Research & Education</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="research-education.html">Research & Education</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Research</h2>
+        <p>My current research focuses on the detection of UK seahorse species using passive acoustic monitoring (PAM) and environmental DNA (eDNA). This method enables us to monitor these elusive creatures in their natural habitat with minimal disturbance, helping to inform conservation efforts.</p>
+
+        <h2>Education</h2>
+        <p><strong>PhD in Marine Biology</strong>, University of Essex (2023)<br>
+        Specializing in UK seahorse detection using PAM and eDNA techniques.</p>
+
+        <p><strong>MSD Marine Biology</strong>, University of Essex (2021-2023)<br>
+        Investigated fish community composition in the Wakatobi Marine National Park and studied Ice Fish nests in the Weddell Sea using ROV data.</p>
+
+        <p><strong>BSc Marine Biology</strong>, University of Essex (2018-2021)<br>
+        Graduated with First-Class Honors. Awarded the Environmental and Conservation Prize for exceptional academic performance.</p>
+    </section>
+</div>
+
+<footer>
+    <p>© 2024 Russell Connelly. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
