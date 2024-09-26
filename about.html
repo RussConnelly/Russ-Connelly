@@ -38,3 +38,77 @@
 
         section {
             text-align:
+        section {
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .photo-gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .photo-gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .photo-gallery .caption {
+            font-size: 0.9rem;
+            color: #555;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 50px;
+            background-color: #0073e6;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>About Me</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="research-education.html">Research & Education</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <h2>My Journey in Marine Biology</h2>
+        <p>I am a marine biologist with a PhD in Marine Biology from the University of Essex. My research primarily focuses on the detection and conservation of native UK seahorse species using passive acoustic monitoring and environmental DNA techniques.</p>
+        
+        <h3>Photos from Fieldwork</h3>
+        <div class="photo-gallery">
+            <div>
+                <img src="https://via.placeholder.com/300x200" alt="Fieldwork Photo 1">
+                <p class="caption">Fieldwork Photo 1 Description</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/300x200" alt="Fieldwork Photo 2">
+                <p class="caption">Fieldwork Photo 2 Description</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/300x200" alt="Fieldwork Photo 3">
+                <p class="caption">Fieldwork Photo 3 Description</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>© 2024 Russell Connelly. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
