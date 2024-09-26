@@ -7,91 +7,131 @@
     <title>Russell Connelly - Marine Biologist</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.8;
         }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
         header {
-            background: #0073e6;
-            color: white;
-            padding: 1rem;
             text-align: center;
+            padding: 50px 0;
         }
-        nav {
-            text-align: center;
-            margin: 1rem 0;
+
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
         }
-        nav a {
-            margin: 0 1rem;
-            color: #0073e6;
-            text-decoration: none;
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 20px 0 10px;
+            font-weight: normal;
         }
+
+        p.tagline {
+            font-size: 1.2rem;
+            color: #555;
+        }
+
         section {
-            padding: 2rem;
+            margin: 50px 0;
         }
-        footer {
-            background: #0073e6;
-            color: white;
+
+        section h2 {
+            font-size: 1.75rem;
+            margin-bottom: 15px;
+            color: #0073e6;
             text-align: center;
-            padding: 1rem;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            max-width: 300px;
+            margin-left: auto;
+            margin-right: auto;
         }
-        .content {
-            max-width: 800px;
+
+        section p {
+            text-align: center;
+            max-width: 750px;
             margin: 0 auto;
         }
-        h2 {
+
+        footer {
+            text-align: center;
+            padding: 50px 0;
+            font-size: 0.9rem;
+            background-color: #0073e6;
+            color: white;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
             color: #0073e6;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Russell Connelly - Marine Biologist</h1>
-    <p>PhD in Marine Biology - Investigating UK Seahorses Using Acoustic Monitoring and Environmental DNA</p>
-</header>
+<div class="container">
+    <header>
+        <img src="https://via.placeholder.com/150" alt="Russell Connelly">
+        <h1>Russell Connelly</h1>
+        <p class="tagline">PhD in Marine Biology - Detecting UK Seahorses with Acoustic Monitoring</p>
+    </header>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#education">Education</a>
-    <a href="#experience">Experience</a>
-    <a href="#contact">Contact</a>
-</nav>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-<section id="about" class="content">
-    <h2>About Me</h2>
-    <p>I am a marine biologist with a PhD focusing on detecting native UK seahorse species using passive acoustic monitoring combined with environmental DNA (eDNA). My research aims to enhance conservation efforts by developing non-invasive techniques for monitoring seahorse populations, providing vital data for species protection and habitat preservation.</p>
-</section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a marine biologist focusing on the detection of native UK seahorse species using passive acoustic monitoring and environmental DNA. My research aims to develop non-invasive monitoring techniques for species protection and conservation.</p>
+    </section>
 
-<section id="education" class="content">
-    <h2>Education</h2>
-    <ul>
-        <li><strong>PhD in Marine Biology</strong> - Current research on UK Seahorses</li>
-        <li><strong>MSD Marine Biology</strong>, University of Essex (2021-2023) - Investigated fish community composition in Indonesia and Ice Fish nests in the Weddell Sea.</li>
-        <li><strong>BSc Marine Biology</strong>, University of Essex (2018-2021) - First-class honors, top of the class, awarded the Environmental and Conservation Prize 2021.</li>
-    </ul>
-</section>
+    <section id="research">
+        <h2>Research</h2>
+        <p>My current work involves using passive acoustic monitoring (PAM) to detect the presence of UK seahorse species. By combining PAM with environmental DNA analysis, I aim to gather data that can support the conservation of these endangered species.</p>
+    </section>
 
-<section id="experience" class="content">
-    <h2>Experience</h2>
-    <ul>
-        <li><strong>Research Assistant</strong>, University of Essex (June 2022 – Aug 2022) - Assisted with salt marsh ecology research, focusing on gas fluxes and plant distributions.</li>
-        <li><strong>Divemaster</strong>, Operation Wallacea & University of Essex - Led scientific diving projects, assisted with data analysis, and delivered lectures on fish identification.</li>
-        <li><strong>President</strong>, University of Essex Sub Aqua Club (2020-2021) - Managed club activities and led a dive trip to Egypt.</li>
-        <li><strong>Peer Mentor & Course Rep</strong>, University of Essex (2019-2021) - Advised students and collected feedback for course improvements.</li>
-    </ul>
-</section>
+    <section id="education">
+        <h2>Education</h2>
+        <p>PhD Marine Biology, University of Essex (2023)<br>MSD Marine Biology, University of Essex (2021-2023)<br>BSc Marine Biology, University of Essex (2018-2021)</p>
+    </section>
 
-<section id="contact" class="content">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:russell@theconnellys.co.uk">russell@theconnellys.co.uk</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/Russ-Connelly">Russ-Connelly</a></p>
-    <p>Phone: +44 7702 810170</p>
-</section>
+    <section id="experience">
+        <h2>Experience</h2>
+        <p>Research Assistant, University of Essex (2022)<br>Divemaster, Operation Wallacea & University of Essex<br>President, University of Essex Sub Aqua Club (2020-2021)</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:russell@theconnellys.co.uk">russell@theconnellys.co.uk</a><br>LinkedIn: <a href="https://www.linkedin.com/in/Russ-Connelly">Russ-Connelly</a><br>Phone: +44 7702 810170</p>
+    </section>
+</div>
 
 <footer>
     <p>© 2024 Russell Connelly. All Rights Reserved.</p>
