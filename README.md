@@ -1,4 +1,18 @@
-<header>
+# 💫 About Me:
+I'm currently working on my PhD on UK seahorse detection using environmental DNA (eDNA) and passive acoustic monitoring (PAM) <br>A PADI divemaster, RYA Powerboat II certified, with STCW Sea Survival Training.<br>I'm looking to collaborate on marine projects in marine technologies, species detection, machine learning, and SCUBA projects.
+
+
+## 🌐 Socials:
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/@russ_connelly_) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/russ-connelly) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/RussConnelly_) 
+
+# 💻 Tech Stack:
+![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=RussConnelly&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=RussConnelly&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=RussConnelly&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) --><header>
 
 <!--
   <<< Author notes: Course header >>>
