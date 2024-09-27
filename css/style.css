@@ -1726,7 +1726,9 @@ body.modal{
 	.tokyo_tm_all_wrap .leftpart{display: none;}
 	.tokyo_tm_all_wrap .rightpart{padding-left: 0px;}
 	.tokyo_tm_all_wrap .rightpart_in{border-left: none;}
-	.tokyo_tm_about{padding-top: 130px;}
+	.tokyo_tm_about{padding-top: 130px;
+		       padding-left: 20px;
+			padding-right: 20px;}
 	.tokyo_tm_portfolio{padding-top: 130px;}
 	.tokyo_tm_contact{padding-top: 130px;}
 	.tokyo_tm_news{padding-top: 130px;}
