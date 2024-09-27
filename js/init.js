@@ -19,7 +19,6 @@ jQuery(document).ready(function(){
 	tokyo_tm_my_progress();
 	tokyo_tm_projects();
 	tokyo_tm_portfolio();
-	tokyo_tm_cursor();
 	tokyo_tm_imgtosvg();
 	tokyo_tm_popup();
 	tokyo_tm_data_images();
@@ -336,32 +335,6 @@ function tokyo_tm_my_load(){
 	var speed	= 500;
 	setTimeout(function(){tokyo_tm_preloader();},speed);
 }
-
-// -----------------------------------------------------
-// ------------------   CURSOR    ----------------------
-// -----------------------------------------------------
-
-function tokyo_tm_cursor(){
-    "use strict";
-	
-	var myCursor	= jQuery('.mouse-cursor');
-	
-	if(myCursor.length){
-		if ($("body")) {
-        const e = document.querySelector(".cursor-inner"),
-            t = document.querySelector(".cursor-outer");
-        let n, i = 0,
-            o = !1;
-        window.onmousemove = function (s) {
-            o || (t.style.transform = "translate(" + s.clientX + "px, " + s.clientY + "px)"), e.style.transform = "translate(" + s.clientX + "px, " + s.clientY + "px)", n = s.clientY, i = s.clientX
-        }, $("body").on("mouseenter", "a, .cursor-pointer", function () {
-            e.classList.add("cursor-hover"), t.classList.add("cursor-hover")
-        }), $("body").on("mouseleave", "a, .cursor-pointer", function () {
-            $(this).is("a") && $(this).closest(".cursor-pointer").length || (e.classList.remove("cursor-hover"), t.classList.remove("cursor-hover"))
-        }), e.style.visibility = "visible", t.style.visibility = "visible"
-    }
-	}
-};
 
 // -----------------------------------------------------
 // ---------------    IMAGE TO SVG    ------------------
