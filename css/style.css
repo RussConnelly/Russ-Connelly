@@ -473,7 +473,7 @@ a{
 	float: left;
 	position: relative;
 	background-color: #f8f8f8;
-	padding-left: 400px;
+	padding-left: 350px;
 }
 .tokyo_tm_all_wrap .rightpart_in{
 	position: relative;
@@ -1728,7 +1728,7 @@ body.modal{
 	.tokyo_tm_all_wrap .rightpart_in{border-left: none;}
 	.tokyo_tm_about{padding-top: 130px;
 		       padding-left: 20px;
-			padding-right: 20px;}
+			padding-right: 40px;}
 	.tokyo_tm_portfolio{padding-top: 130px;}
 	.tokyo_tm_contact{padding-top: 130px;}
 	.tokyo_tm_news{padding-top: 130px;}
@@ -1790,7 +1790,7 @@ body.modal{
 	.tokyo_tm_facts .list ul li{width: 100%;padding-left: 0px;}
 	.tokyo_tm_pricing .list > ul{margin: 0px;}
 	.tokyo_tm_pricing .list > ul > li{width: 100%;padding-left: 0px;}
-	.tokyo_tm_modalbox .description_wrap:after{height: 20px;}
-	.tokyo_tm_modalbox .description_wrap:before{height: 20px;}
+	.tokyo_tm_modalbox .description_wrap:after{height: 30px;}
+	.tokyo_tm_modalbox .description_wrap:before{height: 30px;}
 	.tokyo_tm_modalbox .portfolio_main_title{margin-bottom: 20px;}
 }
