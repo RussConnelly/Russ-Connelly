@@ -738,6 +738,7 @@ a{
 	border-bottom: 1px solid #DFDFDF;
 	padding-bottom: 31px;
 	margin-bottom: 30px;
+	margin-right:5px;
 }
 .tokyo_tm_about .about_text p{
    	margin-bottom: 11px;
@@ -754,20 +755,24 @@ a{
 	border-bottom: 1px solid #DFDFDF;
 	padding-bottom: 30px;
 	margin-bottom: 40px;
+	margin-right:5px;
 }
 .tokyo_tm_short_info .left{
 	width: 50%;
 	padding-right: 50px;
+	margin-right:5px;
 }
 .tokyo_tm_short_info .right{
 	width: 50%;
 	padding-left: 50px;
+	margin-right:5px;
 }
 .tokyo_tm_info{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
+	margin-right:5px;
 }
 .tokyo_tm_info ul{
 	margin: 0px;
@@ -867,6 +872,7 @@ a{
 	clear: both;
 	float: left;
 	padding: 30px 0px 50px 0px;
+	margin-right:5px;
 }
 .tokyo_tm_skillbox .in{
 	width: 100%;
@@ -878,10 +884,12 @@ a{
 .tokyo_tm_skillbox .left{
 	width: 50%;
 	padding-right: 50px;
+	margin-right:5px;
 }
 .tokyo_tm_skillbox .right{
 	width: 50%;
 	padding-left: 50px;
+	margin-right:5px;
 }
 
 .tokyo_tm_skillbox .center{
@@ -930,6 +938,7 @@ a{
 	float: left;
 	background-color: #fff;
 	padding: 50px 0px;
+	margin-right:5px;
 }
 .tokyo_tm_resumebox .in{
 	width: 100%;
