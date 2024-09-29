@@ -381,7 +381,7 @@ a{
 /*---------------------------------------------------*/
 
 .tokyo_tm_all_wrap .leftpart{
-	width: 350px;
+	width: 375px;
 	height: 100vh;
 	position: fixed;
 	display: flex;
@@ -1804,14 +1804,14 @@ body.modal{
 }
 @media (max-width: 768px) {
 	.tokyo_tm_all_wrap .rightpart {padding-left: 0px; padding-right: 0px;}
-        .tokyo_tm_all_wrap .rightpart_in {padding-left: 10px; padding-right: 60px;}
+        .tokyo_tm_all_wrap .rightpart_in {padding-left: 5px; padding-right: 90px;}
     	.tokyo_tm_home .details .name{font-size: 30px;}
 	.tokyo_tm_home .avatar{min-width: 200px;min-height: 200px;}
 	.tokyo_tm_portfolio .portfolio_list{margin: 0px;}
 	.tokyo_tm_portfolio .portfolio_list li{width: 100%;padding-left: 0px;}
 	.tokyo_tm_news ul{margin: 0px;}
 	.tokyo_tm_news ul li{width: 100%;padding-left: 0px;}
-	.tokyo_tm_news ul li .details{padding-left: 30px;padding-right: 30px;}
+	.tokyo_tm_news ul li .details{padding-left: 30px;padding-right: 90px;}
 	.tokyo_tm_modalbox .main_content .icon{position: relative;margin-bottom: 25px;}
 	.tokyo_tm_modalbox .main_content .quotebox{padding-left: 0px;}
 	.tokyo_tm_modalbox .close a{width: 30px;height: 30px;font-size: 14px;}
@@ -1819,18 +1819,18 @@ body.modal{
 	.tokyo_tm_modalbox .box_inner{width: 300px;}
 	.tokyo_tm_modalbox .description_wrap{padding: 20px;}
 	.tokyo_tm_short_info{flex-direction: column;}
-	.tokyo_tm_short_info .left{width: 100%;padding-right: 0px;}
+	.tokyo_tm_short_info .left{width: 100%;padding-right: 90px;}
 	.tokyo_tm_short_info .right{width: 100%;padding-left: 0px;}
 	.tokyo_tm_progressbox .in{flex-direction: column;}
 	.tokyo_tm_progressbox .in .left{width: 100%;padding-right: 0px;margin-bottom: 60px;}
 	.tokyo_tm_progressbox .in .right{width: 100%;padding-left: 0px;}
 	.tokyo_tm_skillbox .in{flex-direction: column;}
-	.tokyo_tm_skillbox .in .left{width: 100%;padding-right: 0px;margin-bottom: 60px;}
+	.tokyo_tm_skillbox .in .left{width: 100%;padding-right: 90px;margin-bottom: 60px;}
 	.tokyo_tm_skillbox .in .right{width: 100%;padding-left: 0px;}
 	.tokyo_tm_resumebox .in{flex-direction: column;}
 	.tokyo_tm_resumebox .in {display: block;}
-	.tokyo_tm_resumebox .in .left{width: 100%;padding-right: 0px;margin-bottom: 60px;}
-	.tokyo_tm_resumebox .in .right{width: 100%;padding-left: 0px;padding-right:60px}
+	.tokyo_tm_resumebox .in .left{width: 100%;padding-right: 90px;margin-bottom: 60px;}
+	.tokyo_tm_resumebox .in .right{width: 100%;padding-left: 0px;padding-right:90px}
 	.tokyo_tm_services .list ul{margin: 0px;}
 	.tokyo_tm_services .list ul li{width: 100%;padding-left: 0px;}
 	.tokyo_tm_partners ul li{width: 50%;}
