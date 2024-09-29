@@ -473,7 +473,7 @@ a{
 	float: left;
 	position: relative;
 	background-color: #f8f8f8;
-	padding-left: 480px;
+	padding-left: 500px;
 }
 .tokyo_tm_all_wrap .rightpart_in{
 	position: relative;
@@ -1773,7 +1773,7 @@ body.modal{
 	.tokyo_tm_all_wrap .rightpart{padding-left: 0px;
 				     padding-right: 0px}
 	.tokyo_tm_all_wrap .rightpart_in{border-left: none;
-					padding-right: 20px}
+					padding-right: 40px}
 	.tokyo_tm_about{padding-top: 130px;}
 	.tokyo_tm_portfolio{padding-top: 130px;}
 	.tokyo_tm_contact{padding-top: 130px;}
@@ -1805,7 +1805,7 @@ body.modal{
 }
 @media (max-width: 768px) {
 	.tokyo_tm_all_wrap .rightpart {padding-left: 0px; padding-right: 0px;}
-        .tokyo_tm_all_wrap .rightpart_in {padding-left: 10px; padding-right: 10px;}
+        .tokyo_tm_all_wrap .rightpart_in {padding-left: 10px; padding-right: 20px;}
     	.tokyo_tm_home .details .name{font-size: 30px;}
 	.tokyo_tm_home .avatar{min-width: 200px;min-height: 200px;}
 	.tokyo_tm_portfolio .portfolio_list{margin: 0px;}
