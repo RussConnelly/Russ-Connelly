@@ -6,7 +6,7 @@
 /*	This file is made for CURRENT TEMPLATE
 
 
-01)	TOKYO TOKYO BASE
+01) TOKYO TOKYO BASE
 02) TOKYO MOBILE MENU
 03) TOKYO LEFTPART
 04) TOKYO RIGHTPART
@@ -386,7 +386,7 @@ a{
 /*---------------------------------------------------*/
 
 .tokyo_tm_all_wrap .leftpart{
-	width: 375px;
+	width: 350px;
 	height: 100vh;
 	position: fixed;
 	display: flex;
@@ -478,7 +478,7 @@ a{
 	float: left;
 	position: relative;
 	background-color: #f8f8f8;
-	padding-left: 450px;
+	padding-left: 500px;
 }
 .tokyo_tm_all_wrap .rightpart_in{
 	position: relative;
@@ -1846,11 +1846,11 @@ body.modal{
 	.tokyo_tm_skillbox .in{flex-direction: column;}
 	.tokyo_tm_skillbox .in .middle{width: 100%;padding-right: 0px;margin-right:5px;}
 	.tokyo_tm_skillbox .in .left{width: 100%;padding-right: 0px;margin-bottom: 60px;margin-right:5px;}
-	.tokyo_tm_skillbox .in .right{width: 100%;padding-left: 0px;padding-right: 200px;margin-right:5px;}
+	.tokyo_tm_skillbox .in .right{width: 100%;padding-left: 0px;padding-right: 0px;margin-right:5px;}
 	.tokyo_tm_resumebox .in{flex-direction: column;}
 	.tokyo_tm_resumebox .in {display: block;}
 	.tokyo_tm_resumebox .in .left{width: 100%;padding-right: 10px;margin-bottom: 60px;margin-right:5px;}
-	.tokyo_tm_resumebox .in .right{width: 100%;padding-left: 0px;padding-right:10px;margin-right:5px;}
+	.tokyo_tm_resumebox .in .right{width: 100%;padding-left: 0px;padding-right:100px;margin-right:5px;}
 	.tokyo_tm_services .list ul{margin: 0px;}
 	.tokyo_tm_services .list ul li{width: 100%;padding-left: 0px;}
 	.tokyo_tm_partners ul li{width: 50%;}
