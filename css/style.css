@@ -1,12 +1,6 @@
 @charset "utf-8";
 
-/*
-/*	Copyright (c) 2022 Marketify
-/*	Author: Marketify
-/*	This file is made for CURRENT TEMPLATE
-
-
-01)	TOKYO TOKYO BASE
+01) TOKYO TOKYO BASE
 02) TOKYO MOBILE MENU
 03) TOKYO LEFTPART
 04) TOKYO RIGHTPART
@@ -15,12 +9,19 @@
 08) TOKYO NEWS
 09) TOKYO CONTACT
 10) TOKYO MAGIC CURSOR
-11) TOKYO MEDIA QUERIES (FOR SMALL DEVIVES)
+11) TOKYO MEDIA QUERIES (FOR SMALL DEVICES)
 
 
 
 /*---------------------------------------------------*/
 /*custom - border for home page*/
+.mobile-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  overflow: hidden; /* Prevents spillover */
+}
 .gradient-border {
   --border-width: 3px;
 
@@ -1813,7 +1814,7 @@ body.modal{
 }
 @media (max-width: 768px) {
 	.tokyo_tm_all_wrap .rightpart {padding-left: 0px; padding-right: 0px;}
-        .tokyo_tm_all_wrap .rightpart_in {padding-left: 0px; padding-right: 110px;margin-right:5px;}
+        .tokyo_tm_all_wrap .rightpart_in {width:100%;margin: 0 auto;padding-left: 0px; padding-right: 20px;boxing-size:border-box;overflow:hidden;margin-right:5px;}
     	.tokyo_tm_home .details .name{font-size: 30px;}
 	.tokyo_tm_home .avatar{min-width: 200px;min-height: 200px;}
 	.tokyo_tm_portfolio .portfolio_list{margin: 0px;}
