@@ -15,7 +15,7 @@
 08) TOKYO NEWS
 09) TOKYO CONTACT
 10) TOKYO MAGIC CURSOR
-11) TOKYO MEDIA QUERIES (FOR SMALL DEVIVES)
+11) TOKYO MEDIA QUERIES (FOR SMALL DEVICES)
 
 
 
@@ -1770,7 +1770,7 @@ body.modal{
 .cursor-outer.cursor-hover{opacity: 0;}
 
 /*---------------------------------------------------*/
-/*	11) TOKYO MEDIA QUERIES (FOR SMALL DEVIVES)
+/*	11) TOKYO MEDIA QUERIES (FOR SMALL DEVICES)
 /*---------------------------------------------------*/
 
 @media (max-width: 1600px) {
@@ -1791,7 +1791,7 @@ body.modal{
 	.tokyo_tm_all_wrap .rightpart{padding-left: 0px;
 				     padding-right: 0px}
 	.tokyo_tm_all_wrap .rightpart_in{border-left: none;
-					padding-right: 90px}
+					padding-right: 50px}
 	.tokyo_tm_about{padding-top: 130px;}
 	.tokyo_tm_portfolio{padding-top: 130px;}
 	.tokyo_tm_contact{padding-top: 130px;}
@@ -1844,7 +1844,7 @@ body.modal{
 	.tokyo_tm_progressbox .in .left{width: 100%;padding-right: 10px;margin-bottom: 60px;}
 	.tokyo_tm_progressbox .in .right{width: 100%;padding-left: 0px;padding-right: 10px}
 	.tokyo_tm_skillbox .in{flex-direction: column;}
-	.tokyo_tm_skillbox .in .middle{width: 100%;padding-right: 200px;margin-right:5px;}
+	.tokyo_tm_skillbox .in .middle{width: 100%;padding-right: 10px;margin-right:5px;}
 	.tokyo_tm_skillbox .in .left{width: 100%;padding-right: 200px;margin-bottom: 60px;margin-right:5px;}
 	.tokyo_tm_skillbox .in .right{width: 100%;padding-left: 0px;padding-right: 200px;margin-right:5px;}
 	.tokyo_tm_resumebox .in{flex-direction: column;}
