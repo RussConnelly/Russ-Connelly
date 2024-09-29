@@ -1830,8 +1830,8 @@ body.modal{
 	.tokyo_tm_modalbox .box_inner{width: 300px;}
 	.tokyo_tm_modalbox .description_wrap{padding: 20px;}
 	.tokyo_tm_short_info{flex-direction: column;}
-	.tokyo_tm_short_info .left{width: 90%;padding-right: 90px;}
-	.tokyo_tm_short_info .right{width: 90%;padding-right: 90px;}
+	.tokyo_tm_short_info .left{width: 90%;padding-right:200px;margin-right:5px;}
+	.tokyo_tm_short_info .right{width: 90%;padding-right: 200px;margin-right:5px;}
 	.tokyo_tm_progressbox .in{flex-direction: column;}
 	.tokyo_tm_progressbox .in .left{width: 100%;padding-right: 110px;margin-bottom: 60px;}
 	.tokyo_tm_progressbox .in .right{width: 100%;padding-left: 0px;padding-right: 110px}
