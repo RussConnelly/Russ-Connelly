@@ -1816,7 +1816,7 @@ body.modal{
 	.tokyo_tm_resume_list ul li .list_inner {display: block;}
     	.tokyo_tm_resume_list ul li .time {width: 100%;padding-right: 0;padding-bottom: 10px;}
     	.tokyo_tm_resume_list ul li .place {width: 100%;padding-left: 0;}
-	.tokyo_tm_about {width: 85%;padding-right: 200px;margin-right:5px;}
+	.tokyo_tm_about .top_author_image {width: 85%;padding-right: 200px;margin-right:5px;}
 	.tokyo_tm_about .about_text{width: 85%;padding-right: 200px;margin-right:5px;}
 	.tokyo_tm_about .about_title{width: 85%;padding-right: 200px;margin-right:5px;}
 	.tokyo_tm_all_wrap .rightpart {padding-left: 0px; padding-right: 0px; margin-right: 0px}
@@ -1848,7 +1848,7 @@ body.modal{
 	.tokyo_tm_resumebox .in{flex-direction: column; width: 90%;}
 	.tokyo_tm_resumebox .in {display: block;}
 	.tokyo_tm_resumebox .in .left{width: 80%;padding-right: 0px;margin-bottom: 60px;margin-right:10px;}
-	.tokyo_tm_resumebox .in .right{width: 80%;margin-top: 60px;padding-right:0px;margin-right:10px;}
+	.tokyo_tm_resumebox .in .right{width: 80%;margin-bottom: 60px;padding-right:0px;margin-right:10px;}
 	.tokyo_tm_services .list ul{margin: 0px;}
 	.tokyo_tm_services .list ul li{width: 100%;padding-left: 0px;}
 	.tokyo_tm_partners ul li{width: 50%;}
