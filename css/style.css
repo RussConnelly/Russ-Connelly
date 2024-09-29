@@ -1814,7 +1814,8 @@ body.modal{
 }
 @media (max-width: 768px) {
 	.tokyo_tm_all_wrap .rightpart {padding-left: 0px; padding-right: 5px; margin-right: 5px}
-        .tokyo_tm_all_wrap .rightpart_in {width:100%;margin: 0 auto;padding-left: 0px; padding-right: 20px;boxing-size:border-box;overflow:hidden;margin-right:5px;}
+        .tokyo_tm_all_wrap .rightpart_in {width:100%;margin: 0 auto;padding-left: 0px; padding-right: 30px;boxing-size:border-box;overflow:hidden;margin-right:10px;}
+    	.tokyo_tm_all_wrap .leftpart_in {width:100%;margin: 0 auto;padding-left: 0px; padding-right: 30px;boxing-size:border-box;overflow:hidden;margin-right:10px;}
     	.tokyo_tm_home .details .name{font-size: 30px;}
 	.tokyo_tm_home .avatar{min-width: 200px;min-height: 200px;}
 	.tokyo_tm_portfolio .portfolio_list{margin: 0px;}
