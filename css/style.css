@@ -1841,8 +1841,8 @@ body.modal{
 	.tokyo_tm_skillbox .in .right{width: 100%;padding-left: 0px;padding-right: 200px;margin-right:5px;}
 	.tokyo_tm_resumebox .in{flex-direction: column;}
 	.tokyo_tm_resumebox .in {display: block;}
-	.tokyo_tm_resumebox .in .left{width: 90%;padding-right: 900px;margin-bottom: 60px;margin-right:5px;}
-	.tokyo_tm_resumebox .in .right{width: 90%;padding-left: 0px;padding-right:900px;margin-right:5px;}
+	.tokyo_tm_resumebox .in .left{width: 60%;padding-right: 900px;margin-bottom: 60px;margin-right:5px;}
+	.tokyo_tm_resumebox .in .right{width: 60%;padding-left: 0px;padding-right:900px;margin-right:5px;}
 	.tokyo_tm_services .list ul{margin: 0px;}
 	.tokyo_tm_services .list ul li{width: 100%;padding-left: 0px;}
 	.tokyo_tm_partners ul li{width: 50%;}
