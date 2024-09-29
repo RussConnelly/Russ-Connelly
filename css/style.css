@@ -1804,7 +1804,7 @@ body.modal{
 }
 @media (max-width: 768px) {
 	.tokyo_tm_all_wrap .rightpart {padding-left: 0px; padding-right: 0px;}
-        .tokyo_tm_all_wrap .rightpart_in {padding-left: 0px; padding-right: 100px;}
+        .tokyo_tm_all_wrap .rightpart_in {padding-left: 0px; padding-right: 110px;}
     	.tokyo_tm_home .details .name{font-size: 30px;}
 	.tokyo_tm_home .avatar{min-width: 200px;min-height: 200px;}
 	.tokyo_tm_portfolio .portfolio_list{margin: 0px;}
@@ -1822,15 +1822,15 @@ body.modal{
 	.tokyo_tm_short_info .left{width: 100%;padding-right: 90px;}
 	.tokyo_tm_short_info .right{width: 100%;padding-left: 0px;}
 	.tokyo_tm_progressbox .in{flex-direction: column;}
-	.tokyo_tm_progressbox .in .left{width: 100%;padding-right: 100px;margin-bottom: 60px;}
-	.tokyo_tm_progressbox .in .right{width: 100%;padding-left: 0px;}
+	.tokyo_tm_progressbox .in .left{width: 100%;padding-right: 110px;margin-bottom: 60px;}
+	.tokyo_tm_progressbox .in .right{width: 100%;padding-left: 0px;padding-right: 110px}
 	.tokyo_tm_skillbox .in{flex-direction: column;}
 	.tokyo_tm_skillbox .in .left{width: 100%;padding-right: 100px;margin-bottom: 60px;}
 	.tokyo_tm_skillbox .in .right{width: 100%;padding-left: 0px;}
 	.tokyo_tm_resumebox .in{flex-direction: column;}
 	.tokyo_tm_resumebox .in {display: block;}
 	.tokyo_tm_resumebox .in .left{width: 100%;padding-right: 10px;margin-bottom: 60px;}
-	.tokyo_tm_resumebox .in .right{width: 100%;padding-left: 0px;padding-right:100px}
+	.tokyo_tm_resumebox .in .right{width: 100%;padding-left: 0px;padding-right:110px}
 	.tokyo_tm_services .list ul{margin: 0px;}
 	.tokyo_tm_services .list ul li{width: 100%;padding-left: 0px;}
 	.tokyo_tm_partners ul li{width: 50%;}
