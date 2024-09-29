@@ -1839,7 +1839,7 @@ body.modal{
 	.tokyo_tm_skillbox .in .middle{width: 90%;padding-right: 200px;margin-right:5px;}
 	.tokyo_tm_skillbox .in .left{width: 90%;padding-right: 200px;margin-bottom: 60px;margin-right:5px;}
 	.tokyo_tm_skillbox .in .right{width: 90%;padding-left: 0px;padding-right: 200px;margin-right:5px;}
-	.tokyo_tm_resumebox .in{flex-direction: column;}
+	.tokyo_tm_resumebox .in{flex-direction: column; width: 90%;}
 	.tokyo_tm_resumebox .in {display: block;}
 	.tokyo_tm_resumebox .in .left{width: 50%;padding-right: 900px;margin-bottom: 60px;margin-right:10px;}
 	.tokyo_tm_resumebox .in .right{width: 50%;padding-left: 0px;padding-right:900px;margin-right:10px;}
