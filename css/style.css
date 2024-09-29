@@ -1813,6 +1813,9 @@ body.modal{
 	.tokyo_tm_modalbox .service_popup_informations .main_title h3{font-size: 20px;}
 }
 @media (max-width: 768px) {
+	.tokyo_tm_resume_list ul li .list_inner {display: block;}
+    	.tokyo_tm_resume_list ul li .time {width: 100%;padding-right: 0;padding-bottom: 10px;}
+    	.tokyo_tm_resume_list ul li .place {width: 100%;padding-left: 0;}
 	.tokyo_tm_all_wrap .rightpart {padding-left: 0px; padding-right: 0px; margin-right: 0px}
         .tokyo_tm_all_wrap .rightpart_in {width:100%;margin: 0 auto;padding-left: 0px; padding-right: 30px;boxing-size:border-box;overflow:hidden;margin-right:10px;}
     	.tokyo_tm_all_wrap .leftpart_in {width:100%;margin: 0 auto;padding-left: 0px; padding-right: 30px;boxing-size:border-box;overflow:hidden;margin-right:10px;}
