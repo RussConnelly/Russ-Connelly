@@ -1825,6 +1825,7 @@ body.modal{
 	.tokyo_tm_progressbox .in .left{width: 100%;padding-right: 110px;margin-bottom: 60px;}
 	.tokyo_tm_progressbox .in .right{width: 100%;padding-left: 0px;padding-right: 110px}
 	.tokyo_tm_skillbox .in{flex-direction: column;}
+	.tokyo_tm_skillbox .in .middle{width: 100%;padding-right: 100px;}
 	.tokyo_tm_skillbox .in .left{width: 100%;padding-right: 100px;margin-bottom: 60px;}
 	.tokyo_tm_skillbox .in .right{width: 100%;padding-left: 0px;padding-right: 110px;}
 	.tokyo_tm_resumebox .in{flex-direction: column;}
