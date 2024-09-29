@@ -21,6 +21,11 @@
 
 /*---------------------------------------------------*/
 /*custom - border for home page*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 .gradient-border {
   --border-width: 3px;
 
@@ -124,12 +129,12 @@ img.svg{
 }
 
 .container{
-	max-width: 1070px;
+	max-width: 100%;
 	width:100%;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
 	height:auto;
-	padding:0px 40px;
+	padding:0px 20px;
 	position:relative;
 	clear:both;
 }
@@ -1574,6 +1579,11 @@ a{
 }
 body.modal{
 	overflow-y: hidden;
+	overflow-wrap: break-word;
+  	word-wrap: break-word;
+  	word-break: break-word;
+  	overflow-x: hidden;
+}
 }
 .tokyo_tm_modalbox .main_content{
 	width: 100%;
