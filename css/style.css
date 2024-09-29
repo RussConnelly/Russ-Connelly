@@ -1813,9 +1813,9 @@ body.modal{
 	.tokyo_tm_modalbox .service_popup_informations .main_title h3{font-size: 20px;}
 }
 @media (max-width: 768px) {
-	.tokyo_tm_all_wrap .rightpart {padding-left: 0px; padding-right: 5px; margin-right: 5px}
-        .tokyo_tm_all_wrap .rightpart_in {width:100%;margin: 0 auto;padding-left: 0px; padding-right: 30px;boxing-size:border-box;overflow:hidden;margin-right:10px;}
-    	.tokyo_tm_all_wrap .leftpart_in {width:100%;margin: 0 auto;padding-left: 0px; padding-right: 30px;boxing-size:border-box;overflow:hidden;margin-right:10px;}
+	.tokyo_tm_all_wrap .rightpart {padding-left: 0px; padding-right: 10px; margin-right: 5px}
+        .tokyo_tm_all_wrap .rightpart_in {width:90%;margin: 0 auto;padding-left: 0px; padding-right: 30px;boxing-size:border-box;overflow:hidden;margin-right:10px;}
+    	.tokyo_tm_all_wrap .leftpart_in {width:90%;margin: 0 auto;padding-left: 0px; padding-right: 30px;boxing-size:border-box;overflow:hidden;margin-right:10px;}
     	.tokyo_tm_home .details .name{font-size: 30px;}
 	.tokyo_tm_home .avatar{min-width: 200px;min-height: 200px;}
 	.tokyo_tm_portfolio .portfolio_list{margin: 0px;}
@@ -1841,8 +1841,8 @@ body.modal{
 	.tokyo_tm_skillbox .in .right{width: 100%;padding-left: 0px;padding-right: 200px;margin-right:5px;}
 	.tokyo_tm_resumebox .in{flex-direction: column;}
 	.tokyo_tm_resumebox .in {display: block;}
-	.tokyo_tm_resumebox .in .left{width: 100%;padding-right: 900px;margin-bottom: 60px;margin-right:5px;}
-	.tokyo_tm_resumebox .in .right{width: 100%;padding-left: 0px;padding-right:900px;margin-right:5px;}
+	.tokyo_tm_resumebox .in .left{width: 90%;padding-right: 900px;margin-bottom: 60px;margin-right:5px;}
+	.tokyo_tm_resumebox .in .right{width: 90%;padding-left: 0px;padding-right:900px;margin-right:5px;}
 	.tokyo_tm_services .list ul{margin: 0px;}
 	.tokyo_tm_services .list ul li{width: 100%;padding-left: 0px;}
 	.tokyo_tm_partners ul li{width: 50%;}
